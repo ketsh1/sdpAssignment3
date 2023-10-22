@@ -12,9 +12,29 @@ This Java project demonstrates the implementation of the Adapter Pattern for CPU
 - `AM4CPUImpl.java`: Implements the `AM4CPU` interface to provide the concrete adaptee functionality.
 - `AM4toAM3Adapter.java`: Implements the adapter class that makes the AM4 CPU compatible with the AM3 socket.
 
+
+##AM4CPU Interface
+```Java
+interface AM4CPU {
+    void insertAM4CPU();
+    void removeAM4CPU();
+    void powerOnAM4CPU();
+}
+
+```
+##AM4CPUImpl Class
+```Java
+class AM4CPUImpl implements AM4CPU {
+    // Implementation of insertAM4CPU, removeAM4CPU, and powerOnAM4CPU methods
+}
+
+```
+
+
 ## Usage
 
 1. Compile the Java code:
 
    ```shell
    javac Main.java
+   ```
