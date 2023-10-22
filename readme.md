@@ -36,5 +36,5 @@ class AM4CPUImpl implements AM4CPU {
 1. Compile the Java code:
 
    ```shell
-   javac Main.java
+   https://github.com/ketsh1/sdpAssignment3/tree/main
    ```
